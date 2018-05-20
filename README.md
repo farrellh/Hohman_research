@@ -8,7 +8,7 @@ Also contains the short summary commented below the code
 
 ## output.html
 
-Contains the cumputed html
+Contains the computed html
 
 ## documentation.txt
 
