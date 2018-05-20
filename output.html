@@ -1,0 +1,50 @@
+<html>
+ <head>
+ </head>
+ <body>
+  <div id="txt">
+   <script id="txt0">
+    dcf-says$
+   </script>
+   <noembed id="txt4">
+    easy
+   </noembed>
+   <noframes id="txt6">
+    2
+   </noframes>
+   <noscript id="txt3">
+    be
+   </noscript>
+   <div id="txt2">
+    should
+   </div>
+   <div>
+    <noscript id="txt5">
+     !
+    </noscript>
+   </div>
+   <span id="txt1">
+    This
+   </span>
+  </div>
+  <div id="innerHTMLtxt">
+  </div>
+  <div id="textContenttxt">
+   <div>
+    <script>
+     for (let i = 0; i < 7; i++) { 
+      x = "txt" + i;
+      y = document.getElementById("innerHTMLtxt").textContent
+      document.getElementById("innerHTMLtxt").textContent = y + document.getElementById(x).firstChild.nodeValue
+    }
+    </script>
+    <script>
+     document.getElementById("txt1").textContent = 'answer:'
+      document.getElementById("txt2").textContent = 'The '
+    </script>
+    <body>
+    </body>
+   </div>
+  </div>
+ </body>
+</html>

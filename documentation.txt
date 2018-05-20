@@ -1,0 +1,8 @@
+The files for the API are in /Hohman_research/flask and the actual code for the API is in api2.py. For this API, I have downloaded the data from the given link, opened the csv file and parsed it into a dictionary list. By putting the csv data into a list, I was able to follow a couple of tutorials and websites online that helped me write the GET and POST functions, which take in the parameter of a particular "hid". For the GET request, it loops through the dictionary list and if the given "hid" matches a hid in the list, it will return the JSON object will the data for that hid. For the POST request, it adds arguments for the "chunk" and "has space" pieces of data and if the given hid matches a hid in the parameter, it will return with a statement saying that the hid already exists. Otherwise, it will create a new hid with the given "chunk" and "has space" and append this to the dictionary list and also write it to the csv file. 
+
+To access the API, go into Hohman_research/flask and run python api2.py to run in a development setting. This provides the following information:
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 109-773-772
